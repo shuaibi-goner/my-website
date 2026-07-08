@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品集 | 个人主页</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">MY PORTFOLIO</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="portfolio.html" class="active">作品集</a></li>
+                <li><a href="contact.html">联系我</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>作品集</h1>
+            <p>展示我的学习成果和项目作品</p>
+        </section>
+
+        <section class="portfolio-content">
+            <div class="container">
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="study">学习笔记</button>
+                    <button class="filter-btn" data-filter="project">课程项目</button>
+                    <button class="filter-btn" data-filter="Other">其他</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="study">
+                        <div class="portfolio-image">
+                            <div class="portfolio-placeholder">📝</div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>《中医文化学》笔记</h3>
+                            <p>十四五《中医文化学》第三四五六七章内容梳理</p>
+                            <span class="portfolio-tag">学习笔记</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="study">
+                        <div class="portfolio-image">
+                            <div class="portfolio-placeholder">📚</div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>健康传播学重点整理</h3>
+                            <p>健康传播学课程重点知识点整理汇总</p>
+                            <span class="portfolio-tag">学习笔记</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="study">
+                        <div class="portfolio-image">
+                            <div class="portfolio-placeholder">📖</div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>中国文化概论资料</h3>
+                            <p>期末必背知识点及知识要点整理</p>
+                            <span class="portfolio-tag">学习笔记</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="project">
+                        <div class="portfolio-image">
+                            <div class="portfolio-placeholder">🎬</div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>中医药文化进校园活动方案</h3>
+                            <p>中医药文化进校园活动方案设计</p>
+                            <span class="portfolio-tag">课程项目</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="project">
+                        <div class="portfolio-image">
+                            <div class="portfolio-placeholder">📰</div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>医患关系小组报告</h3>
+                            <p>健康传播视角下的医患关系研究</p>
+                            <span class="portfolio-tag">课程项目</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="study">
+                        <div class="portfolio-image">
+                            <div class="portfolio-placeholder">📊</div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>马原哲学原理复习笔记</h3>
+                            <p>马克思主义哲学原理复习资料</p>
+                            <span class="portfolio-tag">学习笔记</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="project">
+                        <div class="portfolio-image">
+                            <div class="portfolio-placeholder">🎙️</div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>新闻采访稿</h3>
+                            <p>专业选择主题采访录音整理</p>
+                            <span class="portfolio-tag">课程项目</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">MY PORTFOLIO</div>
+                <div class="footer-links">
+                    <a href="index.html">首页</a>
+                    <a href="about.html">关于</a>
+                    <a href="portfolio.html">作品</a>
+                    <a href="contact.html">联系</a>
+                </div>
+                <p class="copyright">© 2026 J. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
