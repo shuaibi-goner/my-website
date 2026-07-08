@@ -3,104 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人主页 | 我的作品集</title>
+    <title>元新雨 | 天津大学 传播学</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html">MY PORTFOLIO</a>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">YUAN XINYU</a>
+                <nav class="main-nav">
+                    <a href="index.html" class="active">首页</a>
+                    <a href="works.html">作品集</a>
+                    <a href="about.html">关于</a>
+                </nav>
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">首页</a></li>
-                <li><a href="about.html">关于我</a></li>
-                <li><a href="portfolio.html">作品集</a></li>
-                <li><a href="contact.html">联系我</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+        </div>
     </header>
 
     <main>
         <section class="hero">
-            <div class="hero-content">
-                <h1 class="animate-fade-in">你好，我是 <span class="highlight">J</span></h1>
-                <p class="tagline animate-fade-in-delay">学生 · 学习者 · 探索者</p>
-                <div class="cta-buttons animate-fade-in-delay-2">
-                    <a href="portfolio.html" class="btn btn-primary">查看作品</a>
-                    <a href="contact.html" class="btn btn-secondary">联系我</a>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <span>向下滚动</span>
-                <div class="scroll-arrow"></div>
+            <div class="container">
+                <p class="kicker">Tianjin University</p>
+                <h1>元新雨</h1>
+                <p class="subtitle">传播学 · 大二学生</p>
+                <p class="intro">专注于健康传播、新闻采写与媒体设计，关注中医药文化传播与公众健康沟通。</p>
+                <a href="works.html" class="btn">查看作品 →</a>
             </div>
         </section>
 
-        <section class="features">
+        <section class="featured-work">
             <div class="container">
-                <h2>欢迎来到我的个人网站</h2>
-                <p class="section-subtitle">这里展示我的学习经历和作品</p>
-                <div class="feature-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">📚</div>
-                        <h3>我的学习</h3>
-                        <p>记录医学、传播学等相关专业的学习笔记和心得</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">💡</div>
-                        <h3>项目作品</h3>
-                        <p>展示各类课程项目、实践作业和个人作品</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">🎯</div>
-                        <h3>未来规划</h3>
-                        <p>分享我的职业规划和成长目标</p>
-                    </div>
+                <h2 class="section-title">近期作品</h2>
+                <div class="works-grid">
+                    <article class="work-card">
+                        <span class="category">新闻报道</span>
+                        <h3>从"念稿人"到"策划人"：资深广播人赵敏专题讲座</h3>
+                        <p>天津中医药大学"岐语沙龙"第3期活动报道，记录资深广播人20年从业经历与新闻思考。</p>
+                        <a href="works.html#news" class="read-more">阅读全文 →</a>
+                    </article>
+                    <article class="work-card">
+                        <span class="category">海报设计</span>
+                        <h3>健康传播主题海报</h3>
+                        <p>以中医药文化为主题的视觉传播作品，结合传统元素与现代设计语言。</p>
+                        <a href="works.html#posters" class="read-more">查看作品 →</a>
+                    </article>
+                    <article class="work-card">
+                        <span class="category">学术论文</span>
+                        <h3>传播学概论课程论文</h3>
+                        <p>探讨健康传播视角下的医患关系，媒介排期与SWOT分析等课题研究。</p>
+                        <a href="works.html#academic" class="read-more">查看作品 →</a>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section class="stats">
+        <section class="stats-bar">
             <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="3">0</span>
-                        <span class="stat-label">个专业方向</span>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="number">12+</span>
+                        <span class="label">新闻作品</span>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="10">0</span>
-                        <span class="stat-label">+ 课程项目</span>
+                    <div class="stat">
+                        <span class="number">8+</span>
+                        <span class="label">设计作品</span>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="5">0</span>
-                        <span class="stat-label">+ 学习技能</span>
+                    <div class="stat">
+                        <span class="number">15+</span>
+                        <span class="label">学术论文</span>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">MY PORTFOLIO</div>
-                <div class="footer-links">
-                    <a href="index.html">首页</a>
-                    <a href="about.html">关于</a>
-                    <a href="portfolio.html">作品</a>
-                    <a href="contact.html">联系</a>
-                </div>
-                <p class="copyright">© 2026 J. All rights reserved.</p>
-            </div>
+            <p>© 2026 元新雨. 天津大学.</p>
         </div>
     </footer>
 

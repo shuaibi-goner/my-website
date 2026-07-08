@@ -3,129 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>关于我 | 个人主页</title>
+    <title>关于 | 元新雨</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="index.html">MY PORTFOLIO</a>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">YUAN XINYU</a>
+                <nav class="main-nav">
+                    <a href="index.html">首页</a>
+                    <a href="works.html">作品集</a>
+                    <a href="about.html" class="active">关于</a>
+                </nav>
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html">首页</a></li>
-                <li><a href="about.html" class="active">关于我</a></li>
-                <li><a href="portfolio.html">作品集</a></li>
-                <li><a href="contact.html">联系我</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+        </div>
     </header>
 
     <main>
         <section class="page-header">
-            <h1>关于我</h1>
-            <p>了解我的背景、经历和兴趣</p>
+            <div class="container">
+                <h1>关于我</h1>
+                <p class="kicker">About</p>
+            </div>
         </section>
 
         <section class="about-content">
             <div class="container">
                 <div class="about-grid">
                     <div class="about-image">
-                        <div class="image-placeholder">
-                            <span>我的照片</span>
+                        <div class="avatar">
+                            <span>YX</span>
                         </div>
                     </div>
                     <div class="about-text">
-                        <h2>你好，我是 J</h2>
-                        <p class="intro">一名正在成长的学生，对医学和传播学有着浓厚的兴趣。</p>
+                        <h2>元新雨</h2>
+                        <p class="role">天津大学 · 传播学 · 大二</p>
+                        <p class="bio">我是一名传播学专业的大二学生，对健康传播、新闻采写和媒体设计有浓厚兴趣。关注中医药文化的现代传播，期望通过专业所学，架起公众与健康知识之间的桥梁。</p>
 
-                        <div class="about-section">
-                            <h3>📖 教育背景</h3>
-                            <ul class="experience-list">
-                                <li>
-                                    <strong>中医学类专业</strong>
-                                    <span>本科在读</span>
-                                </li>
-                                <li>
-                                    <strong>传播学</strong>
-                                    <span>曾就读，后转专业</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="about-section">
-                            <h3>🎯 个人兴趣</h3>
-                            <div class="tags">
-                                <span class="tag">中医养生</span>
-                                <span class="tag">健康传播</span>
-                                <span class="tag">新闻采写</span>
-                                <span class="tag">文化建设</span>
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span class="label">专业</span>
+                                <span class="value">传播学</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">年级</span>
+                                <span class="value">大二</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">学校</span>
+                                <span class="value">天津大学</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">研究方向</span>
+                                <span class="value">健康传播、新闻采写</span>
                             </div>
                         </div>
 
-                        <div class="about-section">
-                            <h3>💪 个人优势</h3>
-                            <ul class="skills-list">
-                                <li>跨学科学习能力</li>
-                                <li>良好的沟通和表达能力</li>
-                                <li>团队协作与项目管理</li>
-                                <li>持续学习的态度</li>
-                            </ul>
+                        <div class="skills-section">
+                            <h3>技能</h3>
+                            <div class="skills">
+                                <span class="skill-tag">新闻采写</span>
+                                <span class="skill-tag">海报设计</span>
+                                <span class="skill-tag">Adobe Photoshop</span>
+                                <span class="skill-tag">Adobe Illustrator</span>
+                                <span class="skill-tag">PPT制作</span>
+                                <span class="skill-tag">数据分析</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="timeline">
-                    <h2>学习历程</h2>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>高考录取</h3>
-                            <span class="date">2024年</span>
-                            <p>被调剂到传播学专业，开始大学生活</p>
+                <section class="timeline-section">
+                    <h2 class="section-heading">学习经历 <span class="en">Timeline</span></h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2024</div>
+                            <div class="timeline-content">
+                                <h3>入学天津大学</h3>
+                                <p>进入天津大学传播学专业学习，开启传媒探索之旅。</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2024 - 2025</div>
+                            <div class="timeline-content">
+                                <h3>专业课程学习</h3>
+                                <p>系统学习传播学概论、健康传播、新闻采写等核心课程，完成多项课程作业与实践项目。</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2025</div>
+                            <div class="timeline-content">
+                                <h3>实践经历</h3>
+                                <p>参与多项小组项目，包括医患关系研究、校园调查、中医药文化传播等实践课题。</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>转专业</h3>
-                            <span class="date">2025年</span>
-                            <p>成功转入中医养生学专业，追求自己的兴趣</p>
+                </section>
+
+                <section class="contact-section">
+                    <h2 class="section-heading">联系我 <span class="en">Contact</span></h2>
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <span class="icon">✉</span>
+                            <h3>邮箱</h3>
+                            <p>your.email@tju.edu.cn</p>
+                        </div>
+                        <div class="contact-card">
+                            <span class="icon">🏫</span>
+                            <h3>学校</h3>
+                            <p>天津大学</p>
                         </div>
                     </div>
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>深入学习</h3>
-                            <span class="date">2025年 - 至今</span>
-                            <p>专注中医学和健康传播领域的学习与实践</p>
-                        </div>
-                    </div>
-                </div>
+                </section>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">MY PORTFOLIO</div>
-                <div class="footer-links">
-                    <a href="index.html">首页</a>
-                    <a href="about.html">关于</a>
-                    <a href="portfolio.html">作品</a>
-                    <a href="contact.html">联系</a>
-                </div>
-                <p class="copyright">© 2026 J. All rights reserved.</p>
-            </div>
+            <p>© 2026 元新雨. 天津大学.</p>
         </div>
     </footer>
 
